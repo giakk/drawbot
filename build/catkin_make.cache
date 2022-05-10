@@ -1,0 +1,2 @@
+arduino_project:drawbot:ros_package
+-DCATKIN_DEVEL_PREFIX=/home/riccardo/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/riccardo/catkin_ws/install -G Unix Makefiles

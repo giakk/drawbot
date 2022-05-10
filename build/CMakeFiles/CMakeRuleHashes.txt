@@ -1,0 +1,15 @@
+# Hashes of file build rules.
+7ddf2115c47c0bd9ff38450b3cdd776c /home/riccardo/catkin_ws/devel/include/drawbot/Custom.h
+edfd8ec6171a2d64ce60bef4c5422e95 /home/riccardo/catkin_ws/devel/lib/python3/dist-packages/drawbot/msg/_Custom.py
+ea12dda645aef475774e1217db961704 /home/riccardo/catkin_ws/devel/lib/python3/dist-packages/drawbot/msg/__init__.py
+d4ce8fe378252fd987ad96df64960f1a /home/riccardo/catkin_ws/devel/share/common-lisp/ros/drawbot/msg/Custom.lisp
+8f5bb98d02276454dac85e1fdbdb2afa /home/riccardo/catkin_ws/devel/share/gennodejs/ros/drawbot/msg/Custom.js
+071b1226eac9e177bd2d0ad9d54a43c7 /home/riccardo/catkin_ws/devel/share/roseus/ros/drawbot/manifest.l
+d690931e25c1c7232776d10072b28c1c /home/riccardo/catkin_ws/devel/share/roseus/ros/drawbot/msg/Custom.l
+8c376ababe8bd9a9c85facd9ca6778a4 CMakeFiles/clean_test_results
+a4a00dca6cf74c583304619463d36bd2 drawbot/CMakeFiles/_drawbot_generate_messages_check_deps_Custom
+5ff89d2e671c6265ed3d8805b2e24c06 drawbot/CMakeFiles/drawbot_generate_messages_cpp
+5ff89d2e671c6265ed3d8805b2e24c06 drawbot/CMakeFiles/drawbot_generate_messages_eus
+5ff89d2e671c6265ed3d8805b2e24c06 drawbot/CMakeFiles/drawbot_generate_messages_lisp
+5ff89d2e671c6265ed3d8805b2e24c06 drawbot/CMakeFiles/drawbot_generate_messages_nodejs
+5ff89d2e671c6265ed3d8805b2e24c06 drawbot/CMakeFiles/drawbot_generate_messages_py

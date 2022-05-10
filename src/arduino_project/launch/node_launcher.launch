@@ -1,0 +1,15 @@
+<launch>
+	
+	<node pkg="arduino_project" 
+	type="teleop.py" 
+	name="teleop_node" 
+	output="screen"
+	launch-prefix="gnome-terminal --command"/>
+	
+	<node pkg="arduino_project" 
+	type="sub_pub_arduino.py" 
+	name="pub_and_sub" 
+	output="screen"
+	launch-prefix="gnome-terminal --command"/>
+	
+</launch>

@@ -1,6 +1,7 @@
 #! /usr/bin/env python3
 
 # Print the encoder value that receive from the arduino node
+# Prova di commento
 
 import rospy
 from std_msgs.msg import Int16

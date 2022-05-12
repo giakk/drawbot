@@ -4,12 +4,12 @@
 # Prova di commento
 
 import rospy
-from std_msgs.msg import Int16
+from std_msgs.msg import Float32
 
 def callback(msg):
 	print(msg.data)
 
 rospy.init_node('reader_encoder_value')
-sub = rospy.Subscriber('/encoder_read', Int16, callback)
+sub = rospy.Subscriber('/pub_encoder', Float32, callback)
 
 rospy.spin()

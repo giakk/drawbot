@@ -1,0 +1,26 @@
+<launch>
+	
+	<node 
+	pkg="drawbot" 
+	type="teleop.py" 
+	name="teleop_node" 
+	output="screen"
+	launch-prefix="gnome-terminal --command"/>
+	
+	<node pkg="drawbot" 
+	type="new_pub_arduino.py" 
+	name="mapping_code" 
+	output="screen"
+	launch-prefix="gnome-terminal --command"/>
+	
+	<node pkg="drawbot" 
+	type="subscriber_encoder.py" 
+	name="encoder_reader" 
+	output="screen"
+	launch-prefix="gnome-terminal --command"/>
+	
+	<node name="serial_node"        pkg="rosserial_python"      type="serial_node.py">
+    	<param name="port"              type="string"               value="/dev/ttyACM0"/>
+    	</node>
+	
+</launch>

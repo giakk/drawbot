@@ -13,58 +13,51 @@ import sys, select, termios, tty
 
 msg = """
 Reading from the keyboard  and Publishing to Twist!
----------------------------
+---------------------------------------------------
 Moving around:
-   u    i    o
-   j    k    l
-   m    ,    .
 
-For Holonomic mode (strafing), hold down the shift key:
----------------------------
-   U    I    O
-   J    K    L
-   M    <    >
-
-t : up (+z)
-b : down (-z)
-
+  _____________
+ |      w      |
+ | a    s    d |
+ ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+ 
+i:	increase velocity
+k:	decrease velocity
+ 
 anything else : stop
 
-q/z : increase/decrease max speeds by 10%
-w/x : increase/decrease only linear speed by 10%
-e/c : increase/decrease only angular speed by 10%
-
 CTRL-C to quit
+---------------------------------------------------
 """
 
 moveBindings = {
-        'w':(1,0,0,0),
-        'o':(1,0,0,-1),
-        'a':(0,0,0,1),
-        'd':(0,0,0,-1),
-        'u':(1,0,0,1),
-        's':(-1,0,0,0),
-        '.':(-1,0,0,1),
-        'm':(-1,0,0,-1),
-        'O':(1,-1,0,0),
-        'I':(1,0,0,0),
-        'J':(0,1,0,0),
-        'L':(0,-1,0,0),
-        'U':(1,1,0,0),
-        '<':(-1,0,0,0),
-        '>':(-1,-1,0,0),
-        'M':(-1,1,0,0),
-        't':(0,0,1,0),
-        'b':(0,0,-1,0),
+        'w':(1,0,0,0),	#go straight
+        'a':(0,0,0,1),	#go left
+        's':(-1,0,0,0),	#go backward
+        'd':(0,0,0,-1),	#go right
+        #'q':(1,0,0,1),
+        #'e':(1,0,0,-1),
+        #'.':(-1,0,0,1),
+        #'m':(-1,0,0,-1),
+        #'O':(1,-1,0,0),
+        #'I':(1,0,0,0),
+        #'J':(0,1,0,0),
+        #'L':(0,-1,0,0),
+        #'U':(1,1,0,0),
+        #'<':(-1,0,0,0),
+        #'>':(-1,-1,0,0),
+        #'M':(-1,1,0,0),
+        #'t':(0,0,1,0),
+        #'b':(0,0,-1,0),
     }
 
 speedBindings={
-        'q':(5,5),
-        'z':(-5,-5),
+        #'q':(5,5),
+        #'z':(-5,-5),
         'i':(5,0),
         'k':(-5,0),
-        'o':(0,1),
-        'p':(0,-1),
+        #'o':(0,1),
+        #'p':(0,-1),
     }
 
 class PublishThread(threading.Thread):

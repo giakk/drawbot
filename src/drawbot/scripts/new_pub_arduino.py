@@ -31,6 +31,7 @@ def set_velocity(vel_lin, vel_ang):
 		Info.motor_l=val
 	else:
 		# We are in a rotational motion
+		Info=Custom();
 		if(form_lin):
 			Info.change=1
 			form_rot=0

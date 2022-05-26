@@ -54,6 +54,8 @@ CMAKE_BINARY_DIR = /home/riccardo/catkin_ws/build
 include drawbot/CMakeFiles/drawbot_generate_messages_cpp.dir/progress.make
 
 drawbot/CMakeFiles/drawbot_generate_messages_cpp: /home/riccardo/catkin_ws/devel/include/drawbot/Custom.h
+drawbot/CMakeFiles/drawbot_generate_messages_cpp: /home/riccardo/catkin_ws/devel/include/drawbot/Data_arduino.h
+drawbot/CMakeFiles/drawbot_generate_messages_cpp: /home/riccardo/catkin_ws/devel/include/drawbot/Custom_interface.h
 
 
 /home/riccardo/catkin_ws/devel/include/drawbot/Custom.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
@@ -62,8 +64,22 @@ drawbot/CMakeFiles/drawbot_generate_messages_cpp: /home/riccardo/catkin_ws/devel
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/riccardo/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from drawbot/Custom.msg"
 	cd /home/riccardo/catkin_ws/src/drawbot && /home/riccardo/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/riccardo/catkin_ws/src/drawbot/msg/Custom.msg -Idrawbot:/home/riccardo/catkin_ws/src/drawbot/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p drawbot -o /home/riccardo/catkin_ws/devel/include/drawbot -e /opt/ros/noetic/share/gencpp/cmake/..
 
+/home/riccardo/catkin_ws/devel/include/drawbot/Data_arduino.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/riccardo/catkin_ws/devel/include/drawbot/Data_arduino.h: /home/riccardo/catkin_ws/src/drawbot/msg/Data_arduino.msg
+/home/riccardo/catkin_ws/devel/include/drawbot/Data_arduino.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/riccardo/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from drawbot/Data_arduino.msg"
+	cd /home/riccardo/catkin_ws/src/drawbot && /home/riccardo/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/riccardo/catkin_ws/src/drawbot/msg/Data_arduino.msg -Idrawbot:/home/riccardo/catkin_ws/src/drawbot/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p drawbot -o /home/riccardo/catkin_ws/devel/include/drawbot -e /opt/ros/noetic/share/gencpp/cmake/..
+
+/home/riccardo/catkin_ws/devel/include/drawbot/Custom_interface.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/riccardo/catkin_ws/devel/include/drawbot/Custom_interface.h: /home/riccardo/catkin_ws/src/drawbot/msg/Custom_interface.msg
+/home/riccardo/catkin_ws/devel/include/drawbot/Custom_interface.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/riccardo/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from drawbot/Custom_interface.msg"
+	cd /home/riccardo/catkin_ws/src/drawbot && /home/riccardo/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/riccardo/catkin_ws/src/drawbot/msg/Custom_interface.msg -Idrawbot:/home/riccardo/catkin_ws/src/drawbot/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p drawbot -o /home/riccardo/catkin_ws/devel/include/drawbot -e /opt/ros/noetic/share/gencpp/cmake/..
+
 drawbot_generate_messages_cpp: drawbot/CMakeFiles/drawbot_generate_messages_cpp
 drawbot_generate_messages_cpp: /home/riccardo/catkin_ws/devel/include/drawbot/Custom.h
+drawbot_generate_messages_cpp: /home/riccardo/catkin_ws/devel/include/drawbot/Data_arduino.h
+drawbot_generate_messages_cpp: /home/riccardo/catkin_ws/devel/include/drawbot/Custom_interface.h
 drawbot_generate_messages_cpp: drawbot/CMakeFiles/drawbot_generate_messages_cpp.dir/build.make
 
 .PHONY : drawbot_generate_messages_cpp

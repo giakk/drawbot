@@ -54,6 +54,8 @@ CMAKE_BINARY_DIR = /home/riccardo/catkin_ws/build
 include drawbot/CMakeFiles/drawbot_generate_messages_nodejs.dir/progress.make
 
 drawbot/CMakeFiles/drawbot_generate_messages_nodejs: /home/riccardo/catkin_ws/devel/share/gennodejs/ros/drawbot/msg/Custom.js
+drawbot/CMakeFiles/drawbot_generate_messages_nodejs: /home/riccardo/catkin_ws/devel/share/gennodejs/ros/drawbot/msg/Data_arduino.js
+drawbot/CMakeFiles/drawbot_generate_messages_nodejs: /home/riccardo/catkin_ws/devel/share/gennodejs/ros/drawbot/msg/Custom_interface.js
 
 
 /home/riccardo/catkin_ws/devel/share/gennodejs/ros/drawbot/msg/Custom.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
@@ -61,8 +63,20 @@ drawbot/CMakeFiles/drawbot_generate_messages_nodejs: /home/riccardo/catkin_ws/de
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/riccardo/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from drawbot/Custom.msg"
 	cd /home/riccardo/catkin_ws/build/drawbot && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/riccardo/catkin_ws/src/drawbot/msg/Custom.msg -Idrawbot:/home/riccardo/catkin_ws/src/drawbot/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p drawbot -o /home/riccardo/catkin_ws/devel/share/gennodejs/ros/drawbot/msg
 
+/home/riccardo/catkin_ws/devel/share/gennodejs/ros/drawbot/msg/Data_arduino.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/riccardo/catkin_ws/devel/share/gennodejs/ros/drawbot/msg/Data_arduino.js: /home/riccardo/catkin_ws/src/drawbot/msg/Data_arduino.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/riccardo/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from drawbot/Data_arduino.msg"
+	cd /home/riccardo/catkin_ws/build/drawbot && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/riccardo/catkin_ws/src/drawbot/msg/Data_arduino.msg -Idrawbot:/home/riccardo/catkin_ws/src/drawbot/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p drawbot -o /home/riccardo/catkin_ws/devel/share/gennodejs/ros/drawbot/msg
+
+/home/riccardo/catkin_ws/devel/share/gennodejs/ros/drawbot/msg/Custom_interface.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/riccardo/catkin_ws/devel/share/gennodejs/ros/drawbot/msg/Custom_interface.js: /home/riccardo/catkin_ws/src/drawbot/msg/Custom_interface.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/riccardo/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from drawbot/Custom_interface.msg"
+	cd /home/riccardo/catkin_ws/build/drawbot && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/riccardo/catkin_ws/src/drawbot/msg/Custom_interface.msg -Idrawbot:/home/riccardo/catkin_ws/src/drawbot/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p drawbot -o /home/riccardo/catkin_ws/devel/share/gennodejs/ros/drawbot/msg
+
 drawbot_generate_messages_nodejs: drawbot/CMakeFiles/drawbot_generate_messages_nodejs
 drawbot_generate_messages_nodejs: /home/riccardo/catkin_ws/devel/share/gennodejs/ros/drawbot/msg/Custom.js
+drawbot_generate_messages_nodejs: /home/riccardo/catkin_ws/devel/share/gennodejs/ros/drawbot/msg/Data_arduino.js
+drawbot_generate_messages_nodejs: /home/riccardo/catkin_ws/devel/share/gennodejs/ros/drawbot/msg/Custom_interface.js
 drawbot_generate_messages_nodejs: drawbot/CMakeFiles/drawbot_generate_messages_nodejs.dir/build.make
 
 .PHONY : drawbot_generate_messages_nodejs

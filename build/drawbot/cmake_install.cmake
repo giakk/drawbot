@@ -38,7 +38,11 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drawbot/msg" TYPE FILE FILES "/home/riccardo/catkin_ws/src/drawbot/msg/Custom.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drawbot/msg" TYPE FILE FILES
+    "/home/riccardo/catkin_ws/src/drawbot/msg/Custom.msg"
+    "/home/riccardo/catkin_ws/src/drawbot/msg/Data_arduino.msg"
+    "/home/riccardo/catkin_ws/src/drawbot/msg/Custom_interface.msg"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

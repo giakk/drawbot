@@ -54,6 +54,8 @@ CMAKE_BINARY_DIR = /home/riccardo/catkin_ws/build
 include drawbot/CMakeFiles/drawbot_generate_messages_lisp.dir/progress.make
 
 drawbot/CMakeFiles/drawbot_generate_messages_lisp: /home/riccardo/catkin_ws/devel/share/common-lisp/ros/drawbot/msg/Custom.lisp
+drawbot/CMakeFiles/drawbot_generate_messages_lisp: /home/riccardo/catkin_ws/devel/share/common-lisp/ros/drawbot/msg/Data_arduino.lisp
+drawbot/CMakeFiles/drawbot_generate_messages_lisp: /home/riccardo/catkin_ws/devel/share/common-lisp/ros/drawbot/msg/Custom_interface.lisp
 
 
 /home/riccardo/catkin_ws/devel/share/common-lisp/ros/drawbot/msg/Custom.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
@@ -61,8 +63,20 @@ drawbot/CMakeFiles/drawbot_generate_messages_lisp: /home/riccardo/catkin_ws/deve
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/riccardo/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from drawbot/Custom.msg"
 	cd /home/riccardo/catkin_ws/build/drawbot && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/riccardo/catkin_ws/src/drawbot/msg/Custom.msg -Idrawbot:/home/riccardo/catkin_ws/src/drawbot/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p drawbot -o /home/riccardo/catkin_ws/devel/share/common-lisp/ros/drawbot/msg
 
+/home/riccardo/catkin_ws/devel/share/common-lisp/ros/drawbot/msg/Data_arduino.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/riccardo/catkin_ws/devel/share/common-lisp/ros/drawbot/msg/Data_arduino.lisp: /home/riccardo/catkin_ws/src/drawbot/msg/Data_arduino.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/riccardo/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from drawbot/Data_arduino.msg"
+	cd /home/riccardo/catkin_ws/build/drawbot && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/riccardo/catkin_ws/src/drawbot/msg/Data_arduino.msg -Idrawbot:/home/riccardo/catkin_ws/src/drawbot/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p drawbot -o /home/riccardo/catkin_ws/devel/share/common-lisp/ros/drawbot/msg
+
+/home/riccardo/catkin_ws/devel/share/common-lisp/ros/drawbot/msg/Custom_interface.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/riccardo/catkin_ws/devel/share/common-lisp/ros/drawbot/msg/Custom_interface.lisp: /home/riccardo/catkin_ws/src/drawbot/msg/Custom_interface.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/riccardo/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from drawbot/Custom_interface.msg"
+	cd /home/riccardo/catkin_ws/build/drawbot && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/riccardo/catkin_ws/src/drawbot/msg/Custom_interface.msg -Idrawbot:/home/riccardo/catkin_ws/src/drawbot/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p drawbot -o /home/riccardo/catkin_ws/devel/share/common-lisp/ros/drawbot/msg
+
 drawbot_generate_messages_lisp: drawbot/CMakeFiles/drawbot_generate_messages_lisp
 drawbot_generate_messages_lisp: /home/riccardo/catkin_ws/devel/share/common-lisp/ros/drawbot/msg/Custom.lisp
+drawbot_generate_messages_lisp: /home/riccardo/catkin_ws/devel/share/common-lisp/ros/drawbot/msg/Data_arduino.lisp
+drawbot_generate_messages_lisp: /home/riccardo/catkin_ws/devel/share/common-lisp/ros/drawbot/msg/Custom_interface.lisp
 drawbot_generate_messages_lisp: drawbot/CMakeFiles/drawbot_generate_messages_lisp.dir/build.make
 
 .PHONY : drawbot_generate_messages_lisp

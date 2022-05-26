@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
-messages_str = "/home/riccardo/catkin_ws/src/drawbot/msg/Custom.msg"
+messages_str = "/home/riccardo/catkin_ws/src/drawbot/msg/Custom.msg;/home/riccardo/catkin_ws/src/drawbot/msg/Data_arduino.msg;/home/riccardo/catkin_ws/src/drawbot/msg/Custom_interface.msg"
 services_str = ""
 pkg_name = "drawbot"
 dependencies_str = "std_msgs"

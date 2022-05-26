@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "/home/riccardo/catkin_ws/devel/share/common-lisp/ros/drawbot/msg/Custom.lisp"
+  "/home/riccardo/catkin_ws/devel/share/common-lisp/ros/drawbot/msg/Custom_interface.lisp"
+  "/home/riccardo/catkin_ws/devel/share/common-lisp/ros/drawbot/msg/Data_arduino.lisp"
   "CMakeFiles/drawbot_generate_messages_lisp"
 )
 

@@ -54,6 +54,8 @@ CMAKE_BINARY_DIR = /home/riccardo/catkin_ws/build
 include drawbot/CMakeFiles/drawbot_generate_messages_eus.dir/progress.make
 
 drawbot/CMakeFiles/drawbot_generate_messages_eus: /home/riccardo/catkin_ws/devel/share/roseus/ros/drawbot/msg/Custom.l
+drawbot/CMakeFiles/drawbot_generate_messages_eus: /home/riccardo/catkin_ws/devel/share/roseus/ros/drawbot/msg/Data_arduino.l
+drawbot/CMakeFiles/drawbot_generate_messages_eus: /home/riccardo/catkin_ws/devel/share/roseus/ros/drawbot/msg/Custom_interface.l
 drawbot/CMakeFiles/drawbot_generate_messages_eus: /home/riccardo/catkin_ws/devel/share/roseus/ros/drawbot/manifest.l
 
 
@@ -62,12 +64,24 @@ drawbot/CMakeFiles/drawbot_generate_messages_eus: /home/riccardo/catkin_ws/devel
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/riccardo/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from drawbot/Custom.msg"
 	cd /home/riccardo/catkin_ws/build/drawbot && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/riccardo/catkin_ws/src/drawbot/msg/Custom.msg -Idrawbot:/home/riccardo/catkin_ws/src/drawbot/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p drawbot -o /home/riccardo/catkin_ws/devel/share/roseus/ros/drawbot/msg
 
+/home/riccardo/catkin_ws/devel/share/roseus/ros/drawbot/msg/Data_arduino.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/home/riccardo/catkin_ws/devel/share/roseus/ros/drawbot/msg/Data_arduino.l: /home/riccardo/catkin_ws/src/drawbot/msg/Data_arduino.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/riccardo/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from drawbot/Data_arduino.msg"
+	cd /home/riccardo/catkin_ws/build/drawbot && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/riccardo/catkin_ws/src/drawbot/msg/Data_arduino.msg -Idrawbot:/home/riccardo/catkin_ws/src/drawbot/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p drawbot -o /home/riccardo/catkin_ws/devel/share/roseus/ros/drawbot/msg
+
+/home/riccardo/catkin_ws/devel/share/roseus/ros/drawbot/msg/Custom_interface.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/home/riccardo/catkin_ws/devel/share/roseus/ros/drawbot/msg/Custom_interface.l: /home/riccardo/catkin_ws/src/drawbot/msg/Custom_interface.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/riccardo/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from drawbot/Custom_interface.msg"
+	cd /home/riccardo/catkin_ws/build/drawbot && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/riccardo/catkin_ws/src/drawbot/msg/Custom_interface.msg -Idrawbot:/home/riccardo/catkin_ws/src/drawbot/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p drawbot -o /home/riccardo/catkin_ws/devel/share/roseus/ros/drawbot/msg
+
 /home/riccardo/catkin_ws/devel/share/roseus/ros/drawbot/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/riccardo/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for drawbot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/riccardo/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp manifest code for drawbot"
 	cd /home/riccardo/catkin_ws/build/drawbot && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/riccardo/catkin_ws/devel/share/roseus/ros/drawbot drawbot std_msgs
 
 drawbot_generate_messages_eus: drawbot/CMakeFiles/drawbot_generate_messages_eus
 drawbot_generate_messages_eus: /home/riccardo/catkin_ws/devel/share/roseus/ros/drawbot/msg/Custom.l
+drawbot_generate_messages_eus: /home/riccardo/catkin_ws/devel/share/roseus/ros/drawbot/msg/Data_arduino.l
+drawbot_generate_messages_eus: /home/riccardo/catkin_ws/devel/share/roseus/ros/drawbot/msg/Custom_interface.l
 drawbot_generate_messages_eus: /home/riccardo/catkin_ws/devel/share/roseus/ros/drawbot/manifest.l
 drawbot_generate_messages_eus: drawbot/CMakeFiles/drawbot_generate_messages_eus.dir/build.make
 
